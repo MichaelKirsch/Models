@@ -1,0 +1,14 @@
+# Made using Asset Forge (2.1.2)
+
+:materials
+
+[name:_defaultMat;color:RGBA(0.939, 0.953, 1.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:custom1;color:RGBA(1.000, 0.000, 0.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:custom2;color:RGBA(0.000, 1.000, 0.069, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+[name:custom3;color:RGBA(0.000, 0.240, 1.000, 1.000);scale:(1.0, 1.0);shader:Default;valueA:0.35;valueB:0.25;]
+
+:models
+
+[name:;collection:Primitives;type:cylinder;position:(0.0050, 0.0000, 0.0050);rotation:(90.0000, 0.0000, 0.0000);scale:(0.0100, 0.2500, 0.0100);group:;locked:False;hidden:False;materials:custom1;]
+[name:;collection:Primitives;type:cylinder;position:(0.0050, 0.0000, 0.0050);rotation:(0.0000, 0.0000, 0.0000);scale:(0.0100, 0.2500, 0.0100);group:;locked:False;hidden:False;materials:custom2;]
+[name:;collection:Primitives;type:cylinder;position:(0.0050, 0.0000, 0.0050);rotation:(0.0000, 0.0000, 90.0000);scale:(0.0100, 0.2500, 0.0100);group:;locked:False;hidden:False;materials:custom3;]
